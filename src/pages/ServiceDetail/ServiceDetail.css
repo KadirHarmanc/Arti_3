@@ -689,6 +689,50 @@
   height: 100%;
 }
 
+@media (max-width: 767px) {
+  .service-detail-process-timeline {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+
+  .service-detail-process-line {
+    top: 1rem;
+    bottom: 1rem;
+    left: 2.25rem;
+    right: auto;
+    width: 2px;
+    height: auto;
+    transform: none;
+    background: linear-gradient(180deg, #DDE9C9 0%, #4C763B 50%, #DDE9C9 100%);
+  }
+
+  .service-detail-process-steps {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 0 0 0 1.75rem;
+    min-height: auto;
+  }
+
+  .service-detail-process-step {
+    max-width: none;
+    width: 100%;
+  }
+
+  .service-detail-process-step-content {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: flex-start;
+    min-height: auto;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  .service-detail-process-step-spacer {
+    display: none;
+  }
+}
+
 .service-detail-process-step-icon-wrapper {
   position: relative;
   z-index: 10;
@@ -823,6 +867,37 @@
   align-items: center;
   text-align: center;
   grid-row: 3;
+}
+
+@media (max-width: 767px) {
+  .service-detail-process-step-icon-wrapper {
+    width: 3.75rem;
+    height: 3.75rem;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .service-detail-process-step-card {
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+    max-height: none;
+    align-items: flex-start;
+    text-align: left;
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .service-detail-process-step-upper .service-detail-process-step-card,
+  .service-detail-process-step-upper .service-detail-process-step-spacer {
+    grid-row: auto;
+  }
+
+  .service-detail-process-step-title,
+  .service-detail-process-step-description {
+    text-align: left;
+    width: 100%;
+  }
 }
 
 .service-detail-process-step-upper .service-detail-process-step-card {

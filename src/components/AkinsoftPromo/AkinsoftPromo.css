@@ -290,31 +290,35 @@
     }
   }
   
-  .akinsoft-promo-brand {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 0;
-    padding-top: 0.5rem;
-    border-top: 1px solid rgba(210, 220, 182, 0.2);
-  }
-  
-  .akinsoft-promo-brand-logo {
-    width: 28rem;
-    height: 28rem;
-    object-fit: contain;
-    flex-shrink: 0;
-    background: transparent;
-    background-color: transparent;
-  }
-  
-  .akinsoft-promo-brand-text {
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: #0F0F0F;
-    letter-spacing: -0.01em;
-    line-height: 1.4;
-  }
+.akinsoft-promo-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(210, 220, 182, 0.2);
+  text-align: center;
+}
+
+.akinsoft-promo-brand-logo {
+  width: clamp(140px, 55vw, 220px);
+  height: auto;
+  max-height: 140px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: transparent;
+  background-color: transparent;
+}
+
+.akinsoft-promo-brand-text {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  color: #0F0F0F;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
   
   .akinsoft-promo-cta {
     display: inline-flex;
@@ -345,39 +349,40 @@
     transform: translateX(4px);
   }
   
-  @media (min-width: 640px) {
-    .akinsoft-promo-brand {
-      margin-top: 0;
-      padding-top: 0.5rem;
-      gap: 1.25rem;
-    }
-    
-    .akinsoft-promo-brand-logo {
-      width: 30rem;
-      height: 30rem;
-    }
-    
-    .akinsoft-promo-brand-text {
-      font-size: 1.0625rem;
-    }
-    
-    .akinsoft-promo-cta {
-      margin-top: 2rem;
-      padding: 0.625rem 1rem;
-      font-size: 1rem;
-    }
+@media (min-width: 640px) {
+  .akinsoft-promo-brand {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    text-align: left;
   }
   
-  @media (min-width: 768px) {
-    .akinsoft-promo-brand-logo {
-      width: 10rem;
-      height: 10rem;
-    }
-    
-    .akinsoft-promo-brand-text {
-      font-size: 1.125rem;
-    }
+  .akinsoft-promo-brand-logo {
+    width: clamp(180px, 32vw, 260px);
+    max-height: 160px;
   }
+  
+  .akinsoft-promo-brand-text {
+    font-size: 1.1rem;
+  }
+  
+  .akinsoft-promo-cta {
+    margin-top: 2rem;
+    padding: 0.625rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .akinsoft-promo-brand-logo {
+    width: clamp(190px, 22vw, 240px);
+    max-height: 170px;
+  }
+  
+  .akinsoft-promo-brand-text {
+    font-size: 1.125rem;
+  }
+}
   
   .akinsoft-promo-cta-wrapper {
     margin-top: 0.9rem;

@@ -170,7 +170,7 @@ const Contact: React.FC = () => {
 
           <div className="contact-map-wrapper">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.1234567890!2d28.7123456!3d41.0123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAwJzQ0LjQiTiAyOMKwNDInNDQuNCJF!5e0!3m2!1str!2str!4v1234567890123!5m2!1str!2str"
+              src="https://www.google.com/maps?q=Art%C4%B1+3+Bili%C5%9Fim+ve+Teknoloji+%C3%9Cr%C3%BCnleri+Ticaret+Limited+%C5%9Eirketi,+Mustafa+Kemal+Pa%C5%9Fa,+Mahir+Sk.+No:87+D:A,+34320+Avc%C4%B1lar/%C4%B0stanbul&ftid=0x14caa0f0b4f2fa3b:0x688c476b76bc9575&entry=gps&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -184,7 +184,7 @@ const Contact: React.FC = () => {
 
           <div className="contact-map-actions">
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Mustafa+Kemal+Paşa+Mahir+Sokak+No:87+D:A+Avcılar+İstanbul"
+              href="https://maps.app.goo.gl/y3DpBFYq6QiySE4CA?g_st=ipc"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-map-button contact-map-button-primary"
