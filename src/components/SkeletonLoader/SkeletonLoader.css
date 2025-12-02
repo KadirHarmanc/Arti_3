@@ -1,0 +1,122 @@
+.skeleton-loader {
+  min-height: 100vh;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, #F1F3E0 0%, #FFFFFF 50%, #D2DCB6 100%);
+  animation: skeletonFadeIn 0.3s ease-out;
+}
+
+@keyframes skeletonFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.skeleton-header {
+  max-width: 1400px;
+  margin: 0 auto 3rem auto;
+  padding-top: 2rem;
+}
+
+.skeleton-line {
+  height: 1.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(76, 118, 59, 0.1) 0%,
+    rgba(176, 206, 136, 0.15) 50%,
+    rgba(76, 118, 59, 0.1) 100%
+  );
+  background-size: 200% 100%;
+  border-radius: 0.5rem;
+  animation: skeletonShimmer 1.5s ease-in-out infinite;
+  margin-bottom: 1rem;
+}
+
+.skeleton-line-header {
+  width: 60%;
+  max-width: 400px;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.skeleton-line-subheader {
+  width: 40%;
+  max-width: 250px;
+  height: 1.25rem;
+}
+
+.skeleton-line-title {
+  width: 50%;
+  max-width: 300px;
+  height: 2rem;
+}
+
+.skeleton-line-text {
+  width: 100%;
+  height: 1rem;
+}
+
+.skeleton-line-text-short {
+  width: 70%;
+  height: 1rem;
+}
+
+@keyframes skeletonShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.skeleton-section {
+  margin-bottom: 4rem;
+}
+
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .skeleton-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skeleton-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.skeleton-card {
+  height: 300px;
+  background: linear-gradient(
+    90deg,
+    rgba(76, 118, 59, 0.08) 0%,
+    rgba(176, 206, 136, 0.12) 50%,
+    rgba(76, 118, 59, 0.08) 100%
+  );
+  background-size: 200% 100%;
+  border-radius: 1rem;
+  animation: skeletonShimmer 1.5s ease-in-out infinite;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .skeleton-card {
+    height: 350px;
+  }
+}
+

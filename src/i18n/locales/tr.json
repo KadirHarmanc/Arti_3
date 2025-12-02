@@ -1,0 +1,787 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetlerimiz",
+    "products": "Akınsoft Ürünleri",
+    "contact": "İletişim",
+    "demo": "Demo Talep Et",
+    "support": "Destek Talebi"
+  },
+  "navbar": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetlerimiz",
+    "akinsoft": "Akınsoft Ürünleri",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "description": "Kapsamlı teknoloji çözümleri ile işletmenizin dijital dönüşümüne destek oluyoruz",
+    "details": "Detaylar",
+    "weakCurrent": "Zayıf Akım Sistemleri",
+    "electrical": "Elektrik Proje Taahhüt",
+    "it": "Bilişim Hizmetleri",
+    "subcontracting": "Taşeron Hizmetler",
+    "weakCurrent.title": "Zayıf Akım Sistemleri",
+    "weakCurrent.description": "Güvenlik, erişim kontrolü ve otomasyon sistemleri",
+    "electrical.title": "Elektrik Proje Taahhüt",
+    "electrical.description": "Elektrik projeleri ve taahhüt hizmetleri",
+    "it.title": "Bilişim Hizmetleri",
+    "it.description": "IT altyapı ve danışmanlık hizmetleri",
+    "subcontracting.title": "Taşeron Hizmetler",
+    "subcontracting.description": "Profesyonel taşeron hizmet çözümleri"
+  },
+  "electricalPage": {
+    "hero": {
+      "title": "Elektrik Proje Taahhüt",
+      "description": "Profesyonel elektrik projeleri ve taahhüt hizmetleri ile işletmenizin elektrik altyapısını güvenilir şekilde kuruyoruz",
+      "explore": "Keşfet"
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Elektrik alanında sunduğumuz kapsamlı hizmetler",
+      "lighting": {
+        "title": "Aydınlatma Sistemleri",
+        "description": "Modern ve enerji verimli aydınlatma çözümleri",
+        "features": [
+          "LED aydınlatma sistemleri",
+          "Akıllı aydınlatma kontrolü",
+          "Dış mekan aydınlatma",
+          "Endüstriyel aydınlatma"
+        ]
+      },
+      "powerSystems": {
+        "title": "Güç Sistemleri",
+        "description": "Güvenilir ve verimli güç dağıtım sistemleri",
+        "features": [
+          "Elektrik panoları",
+          "Güç dağıtım sistemleri",
+          "Yedek güç sistemleri",
+          "Enerji yönetimi"
+        ]
+      },
+      "highVoltage": {
+        "title": "Yüksek Gerilim",
+        "description": "Yüksek gerilim tesisatı ve bakım hizmetleri",
+        "features": [
+          "Yüksek gerilim kablolama",
+          "Trafo merkezleri",
+          "Güvenlik sistemleri",
+          "Bakım ve onarım"
+        ]
+      },
+      "panelSystems": {
+        "title": "Panel Sistemleri",
+        "description": "Elektrik panoları ve kontrol sistemleri",
+        "features": [
+          "Elektrik panosu tasarımı",
+          "Kontrol panelleri",
+          "Otomasyon sistemleri",
+          "Bakım hizmetleri"
+        ]
+      },
+      "consulting": {
+        "title": "Danışmanlık",
+        "description": "Elektrik projeleri için teknik danışmanlık",
+        "features": [
+          "Proje danışmanlığı",
+          "Teknik analiz",
+          "Enerji verimliliği",
+          "Güvenlik değerlendirmesi"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projelerimiz",
+      "description": "Gerçekleştirdiğimiz başarılı elektrik projelerinden örnekler",
+      "electricalPanel": {
+        "title": "Elektrik Panosu Kurulumu"
+      },
+      "lighting": {
+        "title": "Aydınlatma Projeleri"
+      },
+      "powerDistribution": {
+        "title": "Güç Dağıtım Sistemleri"
+      },
+      "installation": {
+        "title": "Kurulum Hizmetleri"
+      },
+      "transformer": {
+        "title": "Trafo Merkezleri"
+      },
+      "infrastructure": {
+        "title": "Altyapı Projeleri"
+      }
+    },
+    "process": {
+      "title": "Çalışma Sürecimiz",
+      "description": "Projelerinizi adım adım nasıl gerçekleştiriyoruz",
+      "step1": {
+        "title": "İhtiyaç Analizi",
+        "description": "Projenizin gereksinimlerini detaylı şekilde analiz ediyoruz"
+      },
+      "step2": {
+        "title": "Proje Tasarımı",
+        "description": "Teknik çizimler ve proje planlaması yapıyoruz"
+      },
+      "step3": {
+        "title": "Uygulama",
+        "description": "Profesyonel ekip ile projeyi hayata geçiriyoruz"
+      },
+      "step4": {
+        "title": "Teslimat ve Bakım",
+        "description": "Projeyi teslim edip sürekli bakım desteği sağlıyoruz"
+      }
+    },
+    "cta": {
+      "title": "Projenize Başlayalım",
+      "description": "Elektrik projeleriniz için bizimle iletişime geçin",
+      "contactButton": "İletişime Geç"
+    },
+    "seo": {
+      "title": "Elektrik Proje Taahhüt Hizmetleri",
+      "description": "Profesyonel elektrik projeleri ve taahhüt hizmetleri. Aydınlatma, güç sistemleri, yüksek gerilim ve panel sistemleri çözümleri.",
+      "keywords": "elektrik proje, elektrik taahhüt, aydınlatma sistemleri, güç sistemleri, yüksek gerilim, elektrik panosu"
+    }
+  },
+  "itPage": {
+    "hero": {
+      "title": "Bilişim Hizmetleri",
+      "description": "Kurumsal IT altyapısı, bulut çözümleri ve yazılım geliştirme hizmetleri ile işletmenizin dijital dönüşümüne destek oluyoruz",
+      "explore": "Keşfet"
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Bilişim alanında sunduğumuz kapsamlı hizmetler",
+      "software": {
+        "title": "Yazılım Geliştirme",
+        "description": "Özel yazılım çözümleri ve uygulama geliştirme",
+        "features": [
+          "Web uygulamaları",
+          "Mobil uygulamalar",
+          "Kurumsal yazılım",
+          "Yazılım danışmanlığı"
+        ]
+      },
+      "cloud": {
+        "title": "Bulut Çözümleri",
+        "description": "Güvenli ve ölçeklenebilir bulut altyapısı",
+        "features": [
+          "Bulut migrasyon",
+          "Bulut yönetimi",
+          "Veri yedekleme",
+          "Bulut güvenliği"
+        ]
+      },
+      "enterprise": {
+        "title": "Kurumsal Sistemler",
+        "description": "Kurumsal IT altyapısı ve sistem yönetimi",
+        "features": [
+          "Sunucu kurulumu",
+          "Ağ altyapısı",
+          "Veritabanı yönetimi",
+          "Sistem entegrasyonu"
+        ]
+      },
+      "hardware": {
+        "title": "Donanım Çözümleri",
+        "description": "Sunucu, depolama ve ağ donanımları",
+        "features": [
+          "Sunucu kurulumu",
+          "Depolama çözümleri",
+          "Ağ ekipmanları",
+          "Donanım bakımı"
+        ]
+      },
+      "support": {
+        "title": "Teknik Destek",
+        "description": "7/24 teknik destek ve bakım hizmetleri",
+        "features": [
+          "Uzaktan destek",
+          "Yerinde destek",
+          "Sistem bakımı",
+          "Acil müdahale"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projelerimiz",
+      "description": "Gerçekleştirdiğimiz başarılı IT projelerinden örnekler",
+      "serverInstallation": {
+        "title": "Sunucu Kurulumu"
+      },
+      "networkInfrastructure": {
+        "title": "Ağ Altyapısı"
+      }
+    },
+    "process": {
+      "title": "Çalışma Sürecimiz",
+      "description": "IT projelerinizi adım adım nasıl gerçekleştiriyoruz",
+      "step1": {
+        "title": "İhtiyaç Analizi",
+        "description": "IT gereksinimlerinizi detaylı şekilde analiz ediyoruz"
+      },
+      "step2": {
+        "title": "Çözüm Tasarımı",
+        "description": "En uygun IT çözümünü tasarlıyoruz"
+      },
+      "step3": {
+        "title": "Uygulama",
+        "description": "Profesyonel ekip ile projeyi hayata geçiriyoruz"
+      },
+      "step4": {
+        "title": "Destek ve Bakım",
+        "description": "Sürekli destek ve bakım hizmeti sağlıyoruz"
+      }
+    },
+    "cta": {
+      "title": "IT Projenize Başlayalım",
+      "description": "Bilişim hizmetlerimiz için bizimle iletişime geçin",
+      "contactButton": "İletişime Geç"
+    },
+    "seo": {
+      "title": "Bilişim Hizmetleri - IT Çözümleri",
+      "description": "Kurumsal IT altyapısı, bulut çözümleri, yazılım geliştirme ve teknik destek hizmetleri. Profesyonel bilişim çözümleri.",
+      "keywords": "bilişim hizmetleri, IT çözümleri, bulut çözümleri, yazılım geliştirme, sunucu kurulumu, teknik destek"
+    }
+  },
+  "weakCurrentPage": {
+    "hero": {
+      "title": "Zayıf Akım Sistemleri",
+      "description": "Güvenlik, erişim kontrolü ve otomasyon sistemleri ile işletmenizin güvenliğini ve verimliliğini artırıyoruz",
+      "explore": "Keşfet"
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Zayıf akım alanında sunduğumuz kapsamlı hizmetler",
+      "security": {
+        "title": "Güvenlik Sistemleri",
+        "description": "Kapsamlı güvenlik ve izleme çözümleri",
+        "features": [
+          "Güvenlik Kamera Sistemleri",
+          "Araç Kamera Sistemleri",
+          "Araç Altı Görüntüleme Sistemleri",
+          "Turnike Sistemleri",
+          "Bariyer ve Plaka Tanıma",
+          "HGS Çözümleri",
+          "Patlayıcı Tespit Sistemleri",
+          "X-RAY ve Metal Arama Dedektörleri"
+        ]
+      },
+      "accessControl": {
+        "title": "Erişim Kontrolü",
+        "description": "Akıllı erişim kontrol sistemleri",
+        "features": [
+          "Kartlı geçiş sistemleri",
+          "Biyometrik erişim",
+          "Turnike sistemleri",
+          "Ziyaretçi yönetimi"
+        ]
+      },
+      "automation": {
+        "title": "Otomasyon Sistemleri",
+        "description": "Akıllı bina ve otomasyon çözümleri",
+        "features": [
+          "Geçiş Kontrol ve Güvenlik",
+          "Bina Otomasyon Sistemleri",
+          "Akıllı Daire (KNX-DMX) Sistemleri",
+          "Aydınlatma Otomasyonu",
+          "Enerji Tüketim İzleme",
+          "Otopark Yönlendirme ve Ücretlendirme"
+        ]
+      },
+      "network": {
+        "title": "Network Çözümleri",
+        "description": "Kablolu ve kablosuz ağ altyapısı, fiber optik çözümler",
+        "features": [
+          "Kablolu Sistemler",
+          "Kablosuz Sistemler",
+          "Fiber Altyapı Çözümleri",
+          "Kablo ve Ağ Test Hizmetleri"
+        ]
+      },
+      "fireDetection": {
+        "title": "Yangın Algılama ve Alarm",
+        "description": "Yangın güvenlik sistemleri ve acil durum çözümleri",
+        "features": [
+          "Seslendirme ve Acil Anons Sistemleri",
+          "Duman Kontrol ve Tahliye",
+          "Gaz Algılama ve Alarm",
+          "Otomatik Gazlı Söndürme Sistemleri"
+        ]
+      },
+      "personnelTracking": {
+        "title": "Personel Takip Sistemleri",
+        "description": "Personel ve araç takip çözümleri",
+        "features": [
+          "Personel Devamlılık Kontrol",
+          "Araç Takip Sistemleri",
+          "Araç Kameraları Sistemleri",
+          "Kartlı Geçiş Sistemleri"
+        ]
+      },
+      "dataCenter": {
+        "title": "Data Center ve Sistem Odaları",
+        "description": "Veri merkezi ve sistem odası çözümleri",
+        "features": [
+          "Datacenter İmalatı İşleri",
+          "Sistem Odaları İmalatı ve Revizyonu",
+          "FM200 Gazlı Söndürme Sistemleri",
+          "Ortam Algılama ve Takip Sistemleri",
+          "Kesintisiz Güç Kaynakları (UPS)",
+          "Rack Kabinet Temini ve Montajı",
+          "Aktif Cihazlar Temini ve Kurulumu",
+          "Sunucu Temini ve Kurulumu"
+        ]
+      },
+      "burglarAlarm": {
+        "title": "Hırsız Alarm Sistemleri",
+        "description": "Güvenlik alarm ve izleme sistemleri",
+        "features": [
+          "Hırsız Alarm Sistemleri",
+          "Alarm İzleme ve Haber Alma Merkezi",
+          "Mağaza Ürün Güvenlik Sistemleri"
+        ]
+      },
+      "cctv": {
+        "title": "Kapalı Devre Televizyon",
+        "description": "CCTV ve görüntüleme sistemleri",
+        "features": [
+          "Analog TV Sistemleri",
+          "Dijital TV Sistemleri"
+        ]
+      },
+      "audioBroadcast": {
+        "title": "Müzik Yayın ve Seslendirme",
+        "description": "Ses sistemleri ve yayın çözümleri",
+        "features": [
+          "Müzik Yayın Sistemleri",
+          "Seslendirme ve Anons Sistemleri"
+        ]
+      },
+      "videoIntercom": {
+        "title": "Görüntülü Diafon Sistemleri",
+        "description": "İletişim ve güvenlik sistemleri",
+        "features": [
+          "Görüntülü Diafon Sistemleri"
+        ]
+      },
+      "telephoneExchange": {
+        "title": "Telefon Santral Sistemleri",
+        "description": "İletişim altyapısı ve santral çözümleri",
+        "features": [
+          "Analog Telefon Santral Sistemleri",
+          "Hibrit Telefon Santral Sistemleri",
+          "Dijital IP Telefon Santral Sistemleri"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projelerimiz",
+      "description": "Gerçekleştirdiğimiz başarılı zayıf akım projelerinden örnekler",
+      "securityRoom": {
+        "title": "Güvenlik Odası"
+      },
+      "fireAlarm": {
+        "title": "Yangın Alarm Sistemleri"
+      },
+      "fireDetection": {
+        "title": "Yangın Algılama Sistemleri"
+      },
+      "dataCenter": {
+        "title": "Veri Merkezi Kurulumu"
+      },
+      "serverInstallation": {
+        "title": "Sunucu Kurulumu"
+      },
+      "avSystems": {
+        "title": "Ses ve Görüntü Sistemleri"
+      },
+      "cabling": {
+        "title": "Kablo Tesisatı"
+      },
+      "networkInstallation": {
+        "title": "Ağ Kurulumu"
+      },
+      "installation": {
+        "title": "Kurulum Hizmetleri"
+      }
+    },
+    "process": {
+      "title": "Çalışma Sürecimiz",
+      "description": "Zayıf akım projelerinizi adım adım nasıl gerçekleştiriyoruz",
+      "step1": {
+        "title": "Proje Analizi",
+        "description": "İhtiyaçlarınızı analiz ediyor, en uygun çözümü belirliyoruz"
+      },
+      "step2": {
+        "title": "Tasarım ve Planlama",
+        "description": "Teknik çizimler ve detaylı proje planlaması yapıyoruz"
+      },
+      "step3": {
+        "title": "Kurulum ve Montaj",
+        "description": "Uzman ekibimizle profesyonel kurulum gerçekleştiriyoruz"
+      },
+      "step4": {
+        "title": "Test ve Devreye Alma",
+        "description": "Sistemleri test ediyor, devreye alıyor ve eğitim veriyoruz"
+      }
+    },
+    "cta": {
+      "title": "Zayıf Akım Projenize Başlayalım",
+      "description": "Güvenlik ve otomasyon sistemleri için bizimle iletişime geçin",
+      "contactButton": "İletişime Geç"
+    },
+    "seo": {
+      "title": "Zayıf Akım Sistemleri - Güvenlik ve Otomasyon",
+      "description": "Güvenlik sistemleri, erişim kontrolü, otomasyon ve ağ çözümleri. Profesyonel zayıf akım sistemleri.",
+      "keywords": "zayıf akım sistemleri, güvenlik sistemleri, erişim kontrolü, otomasyon, CCTV, alarm sistemleri"
+    }
+  },
+  "subcontractingPage": {
+    "hero": {
+      "title": "Taşeron Hizmetler",
+      "description": "Profesyonel taşeron hizmet çözümleri ile projelerinizin her aşamasında yanınızdayız",
+      "explore": "Keşfet"
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Taşeron hizmetler alanında sunduğumuz kapsamlı çözümler",
+      "construction": {
+        "title": "İnşaat Hizmetleri",
+        "description": "Elektrik ve zayıf akım tesisatı kurulumu",
+        "features": [
+          "Elektrik tesisatı",
+          "Zayıf akım tesisatı",
+          "Altyapı kurulumu",
+          "İnşaat elektrik işleri"
+        ]
+      },
+      "maintenance": {
+        "title": "Bakım Hizmetleri",
+        "description": "Sürekli bakım ve onarım hizmetleri",
+        "features": [
+          "Periyodik bakım",
+          "Acil müdahale",
+          "Sistem güncelleme",
+          "Yedek parça desteği"
+        ]
+      },
+      "installation": {
+        "title": "Kurulum Hizmetleri",
+        "description": "Profesyonel kurulum ve montaj hizmetleri",
+        "features": [
+          "Ekipman kurulumu",
+          "Sistem entegrasyonu",
+          "Test ve devreye alma",
+          "Eğitim ve dokümantasyon"
+        ]
+      },
+      "projectManagement": {
+        "title": "Proje Yönetimi",
+        "description": "Kapsamlı proje yönetimi hizmetleri",
+        "features": [
+          "Proje planlama",
+          "Zaman yönetimi",
+          "Kaynak yönetimi",
+          "Kalite kontrolü"
+        ]
+      },
+      "consulting": {
+        "title": "Danışmanlık",
+        "description": "Teknik danışmanlık ve proje desteği",
+        "features": [
+          "Proje danışmanlığı",
+          "Teknik analiz",
+          "Maliyet optimizasyonu",
+          "Risk yönetimi"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projelerimiz",
+      "description": "Gerçekleştirdiğimiz başarılı taşeron projelerinden örnekler",
+      "construction": {
+        "title": "İnşaat Projeleri"
+      },
+      "maintenance": {
+        "title": "Bakım Hizmetleri"
+      },
+      "installation": {
+        "title": "Kurulum Projeleri"
+      },
+      "infrastructure": {
+        "title": "Altyapı Projeleri"
+      },
+      "cabling": {
+        "title": "Kablo Tesisatı"
+      },
+      "electrical": {
+        "title": "Elektrik İşleri"
+      }
+    },
+    "process": {
+      "title": "Çalışma Sürecimiz",
+      "description": "Taşeron projelerinizi adım adım nasıl gerçekleştiriyoruz",
+      "step1": {
+        "title": "Proje Planlama",
+        "description": "Projenin tüm aşamalarını detaylı şekilde planlıyoruz"
+      },
+      "step2": {
+        "title": "Kaynak Yönetimi",
+        "description": "İnsan kaynağı ve malzeme yönetimini optimize ediyoruz"
+      },
+      "step3": {
+        "title": "Uygulama",
+        "description": "Profesyonel ekip ile projeyi hayata geçiriyoruz"
+      },
+      "step4": {
+        "title": "Kalite Kontrolü",
+        "description": "Projeyi test edip kalite standartlarına uygunluğunu kontrol ediyoruz"
+      }
+    },
+    "cta": {
+      "title": "Taşeron Projenize Başlayalım",
+      "description": "Taşeron hizmetlerimiz için bizimle iletişime geçin",
+      "contactButton": "İletişime Geç"
+    },
+    "seo": {
+      "title": "Taşeron Hizmetler - Profesyonel Çözümler",
+      "description": "Elektrik, zayıf akım ve IT taşeron hizmetleri. İnşaat, bakım, kurulum ve proje yönetimi çözümleri.",
+      "keywords": "taşeron hizmetler, elektrik taşeron, zayıf akım taşeron, proje yönetimi, bakım hizmetleri"
+    }
+  },
+  "home": {
+    "title": "Arti 3 Bilişim",
+    "welcome": "Hoş Geldiniz"
+  },
+  "hero": {
+    "title": "20 Yıllık Tecrübe ile Teknoloji Çözümleri",
+    "description": "İşletmenizin dijital dönüşümünde güvenilir ortağınız. Bilişim altyapılarından elektrik projelerine, zayıf akım sistemlerinden Akınsoft yazılım çözümlerine kadar kapsamlı teknoloji hizmetleri sunuyoruz."
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Bizimle iletişime geçin ve dijital dönüşüm yolculuğunuza başlayın",
+    "phone.title": "Telefon",
+    "callNow": "Hemen Arayın"
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Bizimle İletişime Geçin",
+      "description": "Sorularınız, önerileriniz veya iş birliği teklifleriniz için bizimle iletişime geçmekten çekinmeyin. Size en kısa sürede dönüş yapacağız."
+    },
+    "form": {
+      "title": "İletişim Formu",
+      "subtitle": "Aşağıdaki formu doldurarak bizimle iletişime geçebilirsiniz",
+      "name": {
+        "label": "Ad Soyad",
+        "placeholder": "Adınız ve soyadınız"
+      },
+      "email": {
+        "label": "E-posta",
+        "placeholder": "ornek@email.com"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "+90 (5XX) XXX XX XX"
+      },
+      "subject": {
+        "label": "Konu",
+        "placeholder": "Mesajınızın konusu"
+      },
+      "message": {
+        "label": "Mesaj",
+        "placeholder": "Mesajınızı buraya yazın..."
+      },
+      "submit": "Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+      "error": {
+        "title": "Hata Oluştu",
+        "message": "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "description": "Size en iyi hizmeti sunabilmek için buradayız",
+      "address": {
+        "title": "Adres",
+        "value": "Mustafa Kemal Paşa\nMahir Sokak No:87 D:A\nAvcılar, İstanbul"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 423 27 84"
+      },
+      "email": {
+        "title": "E-posta",
+        "value": "info@arti3.net"
+      },
+      "hours": {
+        "title": "Çalışma Saatleri",
+        "value": "Pazartesi - Cuma\n09:00 - 18:00"
+      }
+    }
+  },
+  "demoPage": {
+    "hero": {
+      "title": "Ücretsiz Demo Talep Edin",
+      "description": "Akınsoft ürünlerini deneyimlemek için demo talebinde bulunun. Size en kısa sürede dönüş yapacağız."
+    },
+    "form": {
+      "title": "Demo Talep Formu",
+      "subtitle": "Ürünlerimizi denemek için formu doldurun",
+      "program": {
+        "label": "Program",
+        "placeholder": "Program seçiniz",
+        "hint": "Demo talep etmek istediğiniz programı seçiniz"
+      },
+      "company": {
+        "label": "Firma",
+        "placeholder": "Firma adınız"
+      },
+      "name": {
+        "label": "Ad Soyad",
+        "placeholder": "Adınız ve soyadınız"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "+90 (5XX) XXX XX XX",
+        "hint": "Size ulaşabilmemiz için telefon numaranızı giriniz"
+      },
+      "description": {
+        "label": "Açıklama",
+        "placeholder": "Demo talebiniz hakkında detaylı bilgi veriniz",
+        "hint": "Demo talebiniz hakkında detaylı bilgi veriniz"
+      },
+      "submit": "Demo Talep Et",
+      "submitting": "Gönderiliyor...",
+      "error": {
+        "title": "Hata Oluştu",
+        "message": "Form gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "20 yıllık tecrübemizle bilişim ve teknoloji alanında güvenilir çözüm ortağınız. Müşterilerimize en kaliteli hizmeti sunmak için sürekli kendimizi geliştiriyoruz.",
+    "tagline": "Teknoloji ile geleceği şekillendiriyoruz"
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Hakkımızda - ARTI 3 BİLİŞİM | 20 Yıllık Teknoloji Tecrübesi",
+      "description": "2004 yılında İstanbul'da kurulan ARTI 3 BİLİŞİM, bilgisayar, yazılım, donanım, proje bazlı elektrik ve zayıf akım işleri konularında uzmanlaşmış teknoloji çözümleri sunmaktadır. 20 yıllık tecrübemizle müşterilerimize kurumsal çözümler sağlıyoruz."
+    },
+    "hero": {
+      "tagline": "Tüm Sorunlarınız İçin Tek Çözüm",
+      "companyName": "ARTI 3 BİLİŞİM",
+      "title": "Hakkımızda",
+      "description": "2004 yılında İstanbul'da kurulan şirketimiz, 20 yıllık tecrübesiyle bilgisayar, yazılım, donanım, elektrik ve zayıf akım sistemleri konularında profesyonel çözümler sunmaktadır."
+    },
+    "content": {
+      "paragraph1": "2004 yılında İstanbul'da kurulan şirketimiz, başlangıçta bireysel müşterilere hizmet verirken, 2015 yılında limited şirketi statüsüne geçerek çalışma alanlarını bireyselden kurumsala taşımıştır. Bu dönüşüm, şirketimizin büyüme stratejisinin önemli bir kilometre taşı olmuş ve kurumsal müşterilere daha kapsamlı hizmetler sunabilmemize olanak sağlamıştır.",
+      "paragraph2": "Şirketimiz, bilgisayar sistemleri, yazılım geliştirme, donanım çözümleri, proje bazlı elektrik işleri ve zayıf akım sistemleri konularında derinlemesine uzmanlaşmıştır. Her bir alanda, sektörün önde gelen teknolojilerini ve en iyi uygulamaları takip ederek, müşterilerimize en güncel ve etkili çözümleri sunmaktayız. Uzman ekibimiz, sürekli eğitim ve gelişim programları ile kendini yenilemekte ve sektördeki son gelişmeleri yakından takip etmektedir.",
+      "paragraph3": "Şirketimiz, sağlamakta olduğu hizmetleriyle müşterilerini gerek kurum içi gerek kurum dışı entegrasyona hazır, piyasadaki rekabet ortamında avantajlı olmalarını sağlayacak çözümler üreterek verimliliklerini her zaman için üst seviyede tutmaya çalışır. Müşteri odaklı yaklaşımımız sayesinde, her projede müşterinin özel ihtiyaçlarını analiz ederek, özelleştirilmiş çözümler geliştirmekteyiz. Kadrosunun çoğu kuruluşundan beri hizmet veren deneyimli personeli ile şirketimiz, günden güne istihdamını arttırarak, hizmet kalitesini yükselterek ve müşteri memnuniyetini ön planda tutarak sürdürülebilir bir büyüme göstermektedir. 20 yıllık tecrübemiz ve sektördeki güçlü referanslarımız, müşterilerimize güven veren en önemli değerlerimizdir."
+    },
+    "tagline": {
+      "text": "Tüm Sorunlarınız İçin Tek Çözüm"
+    },
+    "timeline": {
+      "title": "Tarihçemiz",
+      "item1": {
+        "title": "Kuruluş",
+        "description": "İstanbul'da kuruldu ve bilişim sektöründe hizmet vermeye başladı."
+      },
+      "item2": {
+        "title": "Kurumsallaşma",
+        "description": "Limited şirketi olarak çalışma alanlarını bireyselden kurumsala taşıdı."
+      }
+    },
+    "expertise": {
+      "title": "Uzmanlık Alanlarımız",
+      "item1": {
+        "title": "Bilgisayar Sistemleri",
+        "description": "Bilgisayar donanım ve yazılım çözümleri konusunda uzman hizmetler sunuyoruz."
+      },
+      "item2": {
+        "title": "Yazılım Geliştirme",
+        "description": "Kurumsal yazılım çözümleri ve özel yazılım geliştirme hizmetleri sağlıyoruz."
+      },
+      "item3": {
+        "title": "Elektrik Projeleri",
+        "description": "Proje bazlı elektrik işleri ve elektrik altyapı çözümleri sunuyoruz."
+      },
+      "item4": {
+        "title": "Zayıf Akım Sistemleri",
+        "description": "Zayıf akım sistemleri ve otomasyon çözümleri konusunda uzmanız."
+      }
+    }
+  },
+  "products": {
+    "title": "Akınsoft Ürünleri"
+  },
+  "demo": {
+    "title": "Demo Talep Et"
+  },
+  "support": {
+    "title": "Destek Talebi Oluştur"
+  },
+  "supportPage": {
+    "hero": {
+      "title": "Destek Talebi Oluşturun",
+      "description": "Teknik destek, kurulum veya eğitim talepleriniz için destek formunu doldurun. Size en kısa sürede dönüş yapacağız."
+    },
+    "form": {
+      "title": "Destek Talebi Formu",
+      "subtitle": "Teknik destek, kurulum veya eğitim talepleriniz için formu doldurun",
+      "program": {
+        "label": "Program",
+        "placeholder": "Program seçiniz"
+      },
+      "supportType": {
+        "label": "Destek Türü",
+        "placeholder": "Destek türü seçiniz"
+      },
+      "company": {
+        "label": "Firma",
+        "placeholder": "Firma adınız"
+      },
+      "name": {
+        "label": "Ad Soyad",
+        "placeholder": "Adınız ve soyadınız"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "+90 (5XX) XXX XX XX",
+        "hint": "Size ulaşabilmemiz için telefon numaranızı giriniz"
+      },
+      "description": {
+        "label": "Açıklama",
+        "placeholder": "Destek talebiniz hakkında detaylı bilgi veriniz",
+        "hint": "Destek talebiniz hakkında detaylı bilgi veriniz"
+      },
+      "submit": "Destek Talebi Gönder",
+      "submitting": "Gönderiliyor...",
+      "error": {
+        "title": "Hata Oluştu",
+        "message": "Form gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    }
+  },
+  "footer": {
+    "description": "Bilişim ve teknoloji alanında güvenilir çözüm ortağınız. 2015 yılından beri hizmet vermekteyiz.",
+    "rights": "Tüm hakları saklıdır.",
+    "services": "Hizmetler",
+    "company": "Şirket",
+    "help": "Yardım & Bilgi",
+    "social": "Sosyal Medya",
+    "about": "Hakkımızda",
+    "career": "Kariyer",
+    "partnership": "İş Birliği",
+    "downloadable": "İndirilebilir İçerik",
+    "contactUs": "İletişime Geç",
+    "scrollToTop": "Yukarı Çık",
+    "changeLanguage": "Dili Değiştir",
+    "scrollAndLanguage": "Yukarı Çık / Dili Değiştir"
+  }
+}
+

@@ -1,0 +1,162 @@
+.success-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+  animation: fadeIn 0.2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.success-modal-content {
+  position: relative;
+  max-width: 28rem;
+  width: 100%;
+  animation: slideUp 0.3s;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px) scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.success-modal-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+  z-index: 10;
+  width: 36px;
+  height: 36px;
+}
+
+.success-modal-close:hover {
+  background: white;
+  transform: scale(1.1);
+}
+
+.success-modal-close-icon {
+  width: 20px;
+  height: 20px;
+  color: #6b7280;
+}
+
+.success-modal-card {
+  border: none;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  overflow: hidden;
+}
+
+.success-modal-header {
+  background: linear-gradient(to bottom right, #22c55e, #10b981);
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.success-modal-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  animation: scaleIn 0.4s ease-out 0.2s both;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.success-modal-icon {
+  width: 48px;
+  height: 48px;
+  color: #16a34a;
+}
+
+.success-modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.success-modal-body {
+  padding: 2rem;
+  text-align: center;
+}
+
+.success-modal-message {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+}
+
+.success-modal-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.success-modal-button-primary {
+  width: 100%;
+  background-color: #16a34a;
+  color: white;
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.success-modal-button-primary:hover {
+  background-color: #15803d;
+}
+
+.success-modal-button-secondary {
+  width: 100%;
+  border: 2px solid #d1d5db;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.success-modal-button-secondary:hover {
+  border-color: #111827;
+  background-color: #f9fafb;
+}
+

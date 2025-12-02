@@ -1,0 +1,97 @@
+.scroll-to-top-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 50;
+}
+
+.scroll-to-top-button-wrapper {
+  background-color: white;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s;
+}
+
+.scroll-to-top-button-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.scroll-to-top-button-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.scroll-to-top-button-group.hidden {
+  width: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.scroll-to-top-button-group.visible {
+  width: auto;
+  opacity: 1;
+}
+
+.scroll-to-top-button {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  color: #111827;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #f3f4f6;
+  transform: scale(1.1);
+}
+
+.scroll-to-top-button:active {
+  transform: scale(0.9);
+}
+
+.scroll-to-top-divider {
+  width: 1px;
+  height: 24px;
+  background-color: #d1d5db;
+  flex-shrink: 0;
+}
+
+.scroll-to-top-tooltip {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 8px;
+  background-color: #111827;
+  color: white;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.scroll-to-top-tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  right: 16px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #111827;
+}
+

@@ -1,0 +1,491 @@
+:root {
+  --akinsoft-font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.akinsoft-promo-page {
+    width: 100%;
+  }
+  
+  .akinsoft-promo {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f1f3e0 0%, #ffffff 40%, #f1f3e0 100%);
+    padding: 1.25rem 1rem 0;
+    display: flex;
+    align-items: center;
+    min-height: 380px;
+  }
+  
+  @media (min-width: 375px) {
+    .akinsoft-promo {
+      padding: 1.25rem 1.5rem 0;
+      min-height: 400px;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo {
+      min-height: 450px;
+      padding: 1.75rem 1.5rem 0;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo {
+      min-height: 500px;
+      padding: 2rem 1.5rem 0;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .akinsoft-promo {
+      padding: 2.75rem 0 0 2rem;
+      min-height: 580px;
+    }
+  }
+  
+  .akinsoft-promo::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 10% 20%, rgba(76, 118, 59, 0.08) 0%, transparent 55%),
+      radial-gradient(circle at 90% 80%, rgba(176, 206, 136, 0.06) 0%, transparent 55%);
+    z-index: 0;
+  }
+  
+.akinsoft-promo,
+.akinsoft-promo * {
+  font-family: var(--akinsoft-font-family);
+}
+
+.akinsoft-promo-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo-container {
+      gap: 1.75rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-container {
+      gap: 2rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      max-width: 100%;
+      padding-right: 1.5rem;
+      position: relative;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .akinsoft-promo-container {
+      gap: 1.5rem;
+      padding-right: 0;
+    }
+  }
+  
+  .akinsoft-promo-content {
+    width: 100%;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    flex: 1;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+    background: transparent;
+  }
+  
+  @media (min-width: 375px) {
+    .akinsoft-promo-content {
+      gap: 1rem;
+      margin-bottom: 1.1rem;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo-content {
+      gap: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-content {
+      margin-bottom: 1.75rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-content {
+      flex: 0 1 auto;
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .akinsoft-promo-content {
+      align-self: center;
+      margin-bottom: 2rem;
+      max-width: 720px;
+      flex: 1;
+    }
+  }
+  
+  .akinsoft-promo-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 0.32rem 0.72rem;
+    border-radius: 999px;
+    background: rgba(76, 118, 59, 0.06);
+    color: #30542a;
+    width: fit-content;
+  }
+  
+  .akinsoft-promo-eyebrow::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #4c763b, #b0ce88);
+  }
+  
+  .akinsoft-promo-title {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    color: #0F0F0F;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    display: block;
+    text-align: center;
+    z-index: 5;
+    white-space: nowrap;
+    pointer-events: none;
+    text-transform: uppercase;
+  }
+  
+  @media (min-width: 375px) {
+    .akinsoft-promo-title {
+      font-size: 1.125rem;
+      top: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo-title {
+      font-size: 1.25rem;
+      top: 3rem;
+      letter-spacing: 0.1em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-title {
+      font-size: 1.375rem;
+      top: 3.5rem;
+      letter-spacing: 0.12em;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .akinsoft-promo-title {
+      font-size: 1.5rem;
+      top: 4rem;
+      letter-spacing: 0.15em;
+    }
+  }
+  
+  .akinsoft-promo-description {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: #303030;
+    max-width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 0.25rem;
+    font-weight: 400;
+  }
+  
+  @media (min-width: 375px) {
+    .akinsoft-promo-description {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo-description {
+      font-size: 0.95rem;
+      max-width: 620px;
+      margin-top: 4.5rem;
+      margin-bottom: 0.25rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-description {
+      font-size: 1rem;
+      margin-top: 5rem;
+      margin-bottom: 0.25rem;
+    }
+  }
+
+  .akinsoft-promo-description-secondary {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: #404040;
+    max-width: 100%;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  
+  @media (min-width: 375px) {
+    .akinsoft-promo-description-secondary {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo-description-secondary {
+      font-size: 0.95rem;
+      max-width: 620px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-description-secondary {
+      font-size: 1rem;
+    }
+  }
+  
+  .akinsoft-promo-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(210, 220, 182, 0.2);
+  }
+  
+  .akinsoft-promo-brand-logo {
+    width: 28rem;
+    height: 28rem;
+    object-fit: contain;
+    flex-shrink: 0;
+    background: transparent;
+    background-color: transparent;
+  }
+  
+  .akinsoft-promo-brand-text {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #0F0F0F;
+    letter-spacing: -0.01em;
+    line-height: 1.4;
+  }
+  
+  .akinsoft-promo-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 1.5rem;
+    padding: 0.875rem 1rem;
+    background: transparent;
+    color: #4C763B;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    border-radius: 0;
+    text-decoration: none;
+    border: 2px solid #4C763B;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    box-shadow: none;
+    width: fit-content;
+  }
+  
+  .akinsoft-promo-cta-icon {
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .akinsoft-promo-cta:hover .akinsoft-promo-cta-icon {
+    transform: translateX(4px);
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo-brand {
+      margin-top: 0;
+      padding-top: 0.5rem;
+      gap: 1.25rem;
+    }
+    
+    .akinsoft-promo-brand-logo {
+      width: 30rem;
+      height: 30rem;
+    }
+    
+    .akinsoft-promo-brand-text {
+      font-size: 1.0625rem;
+    }
+    
+    .akinsoft-promo-cta {
+      margin-top: 2rem;
+      padding: 0.625rem 1rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-brand-logo {
+      width: 10rem;
+      height: 10rem;
+    }
+    
+    .akinsoft-promo-brand-text {
+      font-size: 1.125rem;
+    }
+  }
+  
+  .akinsoft-promo-cta-wrapper {
+    margin-top: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .akinsoft-promo-cta-hint {
+    font-size: 0.78rem;
+    color: #4a4a4a;
+  }
+  
+  
+  .akinsoft-promo-visual {
+    width: 100%;
+    min-width: 0;
+    margin-top: 1rem;
+    padding-top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    position: relative;
+    z-index: 3;
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-visual {
+      z-index: 3;
+      flex: 0 1 auto;
+      width: auto;
+      min-width: 0;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .akinsoft-promo-visual {
+      width: auto;
+      margin-top: 0;
+      padding-top: 0;
+      justify-content: flex-end;
+      flex: 0 0 auto;
+      align-self: flex-end;
+    }
+  }
+  
+  .akinsoft-promo-image-box {
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 16px;
+    position: relative;
+    z-index: 4;
+  }
+  
+  @media (min-width: 375px) {
+    .akinsoft-promo-image-box {
+      height: 200px;
+      border-radius: 18px;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .akinsoft-promo-image-box {
+      max-width: 600px;
+      height: 220px;
+      border-radius: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .akinsoft-promo-image-box {
+      max-width: 720px;
+      height: 150px;
+      border-radius: 22px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .akinsoft-promo-image-box {
+      max-width: 820px;
+      height: 250px;
+      margin-bottom: 0;
+    }
+  }
+  
+  .akinsoft-promo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    opacity: 0;
+    transform: translateY(-18px) scale(1.03);
+    animation: heroImageIn 0.85s cubic-bezier(0.22, 0.8, 0.3, 1) 0.22s forwards;
+  }
+  
+  @keyframes heroImageIn {
+    from {
+      opacity: 0;
+      transform: translateY(-18px) scale(1.03);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }

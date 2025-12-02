@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --app-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Inter', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --hero-font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--app-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-hero,
+.service-detail-hero,
+.about-hero,
+.support-hero,
+.demo-hero,
+.contact-hero,
+.product-detail-hero,
+.home-hero *,
+.service-detail-hero *,
+.about-hero *,
+.support-hero *,
+.demo-hero *,
+.contact-hero *,
+.product-detail-hero * {
+  font-family: var(--hero-font-family) !important;
+}
+
+#root {
+  min-height: 100vh;
+}
+

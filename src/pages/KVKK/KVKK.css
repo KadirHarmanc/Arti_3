@@ -1,0 +1,118 @@
+.kvkk-document {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+  background: #ffffff;
+  color: #111;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.85;
+}
+
+.kvkk-header {
+  border-bottom: 1px solid #d1d5db;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.kvkk-header h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.kvkk-law-number {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.85rem;
+  color: #4b5563;
+}
+
+.kvkk-block + .kvkk-block {
+  margin-top: 2.25rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.kvkk-block h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #0f172a;
+}
+
+.kvkk-block h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0 0.25rem;
+  color: #111;
+}
+
+.kvkk-block p {
+  margin: 0.75rem 0;
+}
+
+.kvkk-strong {
+  font-weight: 600;
+}
+
+.kvkk-list {
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+}
+
+.kvkk-list > li {
+  margin-bottom: 1rem;
+}
+
+.kvkk-list ul {
+  margin: 0.5rem 0 0 1rem;
+  list-style: disc;
+}
+
+.kvkk-numbered {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.kvkk-numbered li {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.kvkk-index {
+  display: inline-block;
+  width: 3rem;
+  color: #6b7280;
+}
+
+.kvkk-contact-list {
+  margin: 1rem 0 0;
+}
+
+.kvkk-contact-list div {
+  margin-bottom: 0.85rem;
+}
+
+.kvkk-contact-list dt {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6b7280;
+}
+
+.kvkk-contact-list dd {
+  margin: 0.2rem 0 0;
+}
+
+@media (max-width: 640px) {
+  .kvkk-document {
+    padding: 2.5rem 1.25rem 3rem;
+  }
+
+  .kvkk-index {
+    width: 2rem;
+  }
+}
+

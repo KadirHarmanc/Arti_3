@@ -1,0 +1,787 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "products": "Akinsoft Products",
+    "contact": "Contact",
+    "demo": "Request Demo",
+    "support": "Support Request"
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "akinsoft": "Akinsoft Products",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We support your business's digital transformation with comprehensive technology solutions",
+    "details": "Details",
+    "weakCurrent": "Weak Current Systems",
+    "electrical": "Electrical Project Contracting",
+    "it": "IT Services",
+    "subcontracting": "Subcontracting Services",
+    "weakCurrent.title": "Weak Current Systems",
+    "weakCurrent.description": "Security, access control and automation systems",
+    "electrical.title": "Electrical Project Contracting",
+    "electrical.description": "Electrical projects and contracting services",
+    "it.title": "IT Services",
+    "it.description": "IT infrastructure and consulting services",
+    "subcontracting.title": "Subcontracting Services",
+    "subcontracting.description": "Professional subcontracting service solutions"
+  },
+  "electricalPage": {
+    "hero": {
+      "title": "Electrical Project Contracting",
+      "description": "We reliably establish your business's electrical infrastructure with professional electrical projects and contracting services",
+      "explore": "Explore"
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Comprehensive services we offer in the electrical field",
+      "lighting": {
+        "title": "Lighting Systems",
+        "description": "Modern and energy-efficient lighting solutions",
+        "features": [
+          "LED lighting systems",
+          "Smart lighting control",
+          "Outdoor lighting",
+          "Industrial lighting"
+        ]
+      },
+      "powerSystems": {
+        "title": "Power Systems",
+        "description": "Reliable and efficient power distribution systems",
+        "features": [
+          "Electrical panels",
+          "Power distribution systems",
+          "Backup power systems",
+          "Energy management"
+        ]
+      },
+      "highVoltage": {
+        "title": "High Voltage",
+        "description": "High voltage installation and maintenance services",
+        "features": [
+          "High voltage cabling",
+          "Transformer centers",
+          "Safety systems",
+          "Maintenance and repair"
+        ]
+      },
+      "panelSystems": {
+        "title": "Panel Systems",
+        "description": "Electrical panels and control systems",
+        "features": [
+          "Electrical panel design",
+          "Control panels",
+          "Automation systems",
+          "Maintenance services"
+        ]
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "Technical consulting for electrical projects",
+        "features": [
+          "Project consulting",
+          "Technical analysis",
+          "Energy efficiency",
+          "Safety assessment"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Our Projects",
+      "description": "Examples from our successful electrical projects",
+      "electricalPanel": {
+        "title": "Electrical Panel Installation"
+      },
+      "lighting": {
+        "title": "Lighting Projects"
+      },
+      "powerDistribution": {
+        "title": "Power Distribution Systems"
+      },
+      "installation": {
+        "title": "Installation Services"
+      },
+      "transformer": {
+        "title": "Transformer Centers"
+      },
+      "infrastructure": {
+        "title": "Infrastructure Projects"
+      }
+    },
+    "process": {
+      "title": "Our Work Process",
+      "description": "How we realize your projects step by step",
+      "step1": {
+        "title": "Needs Analysis",
+        "description": "We analyze your project requirements in detail"
+      },
+      "step2": {
+        "title": "Project Design",
+        "description": "We create technical drawings and project planning"
+      },
+      "step3": {
+        "title": "Implementation",
+        "description": "We bring the project to life with our professional team"
+      },
+      "step4": {
+        "title": "Delivery and Maintenance",
+        "description": "We deliver the project and provide continuous maintenance support"
+      }
+    },
+    "cta": {
+      "title": "Let's Start Your Project",
+      "description": "Contact us for your electrical projects",
+      "contactButton": "Contact Us"
+    },
+    "seo": {
+      "title": "Electrical Project Contracting Services",
+      "description": "Professional electrical projects and contracting services. Lighting, power systems, high voltage and panel systems solutions.",
+      "keywords": "electrical project, electrical contracting, lighting systems, power systems, high voltage, electrical panel"
+    }
+  },
+  "itPage": {
+    "hero": {
+      "title": "IT Services",
+      "description": "We support your business's digital transformation with corporate IT infrastructure, cloud solutions and software development services",
+      "explore": "Explore"
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Comprehensive services we offer in the IT field",
+      "software": {
+        "title": "Software Development",
+        "description": "Custom software solutions and application development",
+        "features": [
+          "Web applications",
+          "Mobile applications",
+          "Enterprise software",
+          "Software consulting"
+        ]
+      },
+      "cloud": {
+        "title": "Cloud Solutions",
+        "description": "Secure and scalable cloud infrastructure",
+        "features": [
+          "Cloud migration",
+          "Cloud management",
+          "Data backup",
+          "Cloud security"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise Systems",
+        "description": "Corporate IT infrastructure and system management",
+        "features": [
+          "Server installation",
+          "Network infrastructure",
+          "Database management",
+          "System integration"
+        ]
+      },
+      "hardware": {
+        "title": "Hardware Solutions",
+        "description": "Server, storage and network hardware",
+        "features": [
+          "Server installation",
+          "Storage solutions",
+          "Network equipment",
+          "Hardware maintenance"
+        ]
+      },
+      "support": {
+        "title": "Technical Support",
+        "description": "24/7 technical support and maintenance services",
+        "features": [
+          "Remote support",
+          "On-site support",
+          "System maintenance",
+          "Emergency response"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Our Projects",
+      "description": "Examples from our successful IT projects",
+      "serverInstallation": {
+        "title": "Server Installation"
+      },
+      "networkInfrastructure": {
+        "title": "Network Infrastructure"
+      }
+    },
+    "process": {
+      "title": "Our Work Process",
+      "description": "How we realize your IT projects step by step",
+      "step1": {
+        "title": "Needs Analysis",
+        "description": "We analyze your IT requirements in detail"
+      },
+      "step2": {
+        "title": "Solution Design",
+        "description": "We design the most suitable IT solution"
+      },
+      "step3": {
+        "title": "Implementation",
+        "description": "We bring the project to life with our professional team"
+      },
+      "step4": {
+        "title": "Support and Maintenance",
+        "description": "We provide continuous support and maintenance services"
+      }
+    },
+    "cta": {
+      "title": "Let's Start Your IT Project",
+      "description": "Contact us for our IT services",
+      "contactButton": "Contact Us"
+    },
+    "seo": {
+      "title": "IT Services - IT Solutions",
+      "description": "Corporate IT infrastructure, cloud solutions, software development and technical support services. Professional IT solutions.",
+      "keywords": "IT services, IT solutions, cloud solutions, software development, server installation, technical support"
+    }
+  },
+  "weakCurrentPage": {
+    "hero": {
+      "title": "Weak Current Systems",
+      "description": "We increase your business's security and efficiency with security, access control and automation systems",
+      "explore": "Explore"
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Comprehensive services we offer in the weak current field",
+      "security": {
+        "title": "Security Systems",
+        "description": "Comprehensive security and monitoring solutions",
+        "features": [
+          "Security Camera Systems",
+          "Vehicle Camera Systems",
+          "Under Vehicle Inspection Systems",
+          "Turnstile Systems",
+          "Barrier and License Plate Recognition",
+          "HGS Solutions",
+          "Explosive Detection Systems",
+          "X-RAY and Metal Detection Systems"
+        ]
+      },
+      "accessControl": {
+        "title": "Access Control",
+        "description": "Smart access control systems",
+        "features": [
+          "Card access systems",
+          "Biometric access",
+          "Turnstile systems",
+          "Visitor management"
+        ]
+      },
+      "automation": {
+        "title": "Automation Systems",
+        "description": "Smart building and automation solutions",
+        "features": [
+          "Access Control and Security",
+          "Building Automation Systems",
+          "Smart Apartment (KNX-DMX) Systems",
+          "Lighting Automation",
+          "Energy Consumption Monitoring",
+          "Parking Guidance and Billing"
+        ]
+      },
+      "network": {
+        "title": "Network Solutions",
+        "description": "Wired and wireless network infrastructure, fiber optic solutions",
+        "features": [
+          "Wired Systems",
+          "Wireless Systems",
+          "Fiber Infrastructure Solutions",
+          "Cable and Network Testing Services"
+        ]
+      },
+      "fireDetection": {
+        "title": "Fire Detection and Alarm",
+        "description": "Fire safety systems and emergency solutions",
+        "features": [
+          "Voice and Emergency Announcement Systems",
+          "Smoke Control and Evacuation",
+          "Gas Detection and Alarm",
+          "Automatic Gas Suppression Systems"
+        ]
+      },
+      "personnelTracking": {
+        "title": "Personnel Tracking Systems",
+        "description": "Personnel and vehicle tracking solutions",
+        "features": [
+          "Personnel Attendance Control",
+          "Vehicle Tracking Systems",
+          "Vehicle Camera Systems",
+          "Card Access Systems"
+        ]
+      },
+      "dataCenter": {
+        "title": "Data Center and Server Rooms",
+        "description": "Data center and server room solutions",
+        "features": [
+          "Data Center Manufacturing Works",
+          "Server Room Manufacturing and Renovation",
+          "FM200 Gas Suppression Systems",
+          "Environmental Detection and Monitoring Systems",
+          "Uninterruptible Power Supplies (UPS)",
+          "Rack Cabinet Supply and Installation",
+          "Active Device Supply and Installation",
+          "Server Supply and Installation"
+        ]
+      },
+      "burglarAlarm": {
+        "title": "Burglar Alarm Systems",
+        "description": "Security alarm and monitoring systems",
+        "features": [
+          "Burglar Alarm Systems",
+          "Alarm Monitoring and Notification Center",
+          "Retail Product Security Systems"
+        ]
+      },
+      "cctv": {
+        "title": "Closed Circuit Television",
+        "description": "CCTV and imaging systems",
+        "features": [
+          "Analog TV Systems",
+          "Digital TV Systems"
+        ]
+      },
+      "audioBroadcast": {
+        "title": "Music Broadcast and Sound Systems",
+        "description": "Audio systems and broadcast solutions",
+        "features": [
+          "Music Broadcast Systems",
+          "Sound and Announcement Systems"
+        ]
+      },
+      "videoIntercom": {
+        "title": "Video Intercom Systems",
+        "description": "Communication and security systems",
+        "features": [
+          "Video Intercom Systems"
+        ]
+      },
+      "telephoneExchange": {
+        "title": "Telephone Exchange Systems",
+        "description": "Communication infrastructure and exchange solutions",
+        "features": [
+          "Analog Telephone Exchange Systems",
+          "Hybrid Telephone Exchange Systems",
+          "Digital IP Telephone Exchange Systems"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Our Projects",
+      "description": "Examples from our successful weak current projects",
+      "securityRoom": {
+        "title": "Security Room"
+      },
+      "fireAlarm": {
+        "title": "Fire Alarm Systems"
+      },
+      "fireDetection": {
+        "title": "Fire Detection Systems"
+      },
+      "dataCenter": {
+        "title": "Data Center Installation"
+      },
+      "serverInstallation": {
+        "title": "Server Installation"
+      },
+      "avSystems": {
+        "title": "Audio and Video Systems"
+      },
+      "cabling": {
+        "title": "Cable Installation"
+      },
+      "networkInstallation": {
+        "title": "Network Installation"
+      },
+      "installation": {
+        "title": "Installation Services"
+      }
+    },
+    "process": {
+      "title": "Our Work Process",
+      "description": "How we realize your weak current projects step by step",
+      "step1": {
+        "title": "Project Analysis",
+        "description": "We analyze your requirements and define the most suitable solution"
+      },
+      "step2": {
+        "title": "Design & Planning",
+        "description": "We prepare technical drawings and detailed project plans"
+      },
+      "step3": {
+        "title": "Installation & Assembly",
+        "description": "Our expert team delivers a professional on-site installation"
+      },
+      "step4": {
+        "title": "Testing & Commissioning",
+        "description": "We test every system, commission the solution, and provide training"
+      }
+    },
+    "cta": {
+      "title": "Let's Start Your Weak Current Project",
+      "description": "Contact us for security and automation systems",
+      "contactButton": "Contact Us"
+    },
+    "seo": {
+      "title": "Weak Current Systems - Security and Automation",
+      "description": "Security systems, access control, automation and network solutions. Professional weak current systems.",
+      "keywords": "weak current systems, security systems, access control, automation, CCTV, alarm systems"
+    }
+  },
+  "subcontractingPage": {
+    "hero": {
+      "title": "Subcontracting Services",
+      "description": "We are with you at every stage of your projects with professional subcontracting service solutions",
+      "explore": "Explore"
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Comprehensive solutions we offer in the subcontracting services field",
+      "construction": {
+        "title": "Construction Services",
+        "description": "Electrical and weak current installation",
+        "features": [
+          "Electrical installation",
+          "Weak current installation",
+          "Infrastructure installation",
+          "Construction electrical work"
+        ]
+      },
+      "maintenance": {
+        "title": "Maintenance Services",
+        "description": "Continuous maintenance and repair services",
+        "features": [
+          "Periodic maintenance",
+          "Emergency response",
+          "System updates",
+          "Spare parts support"
+        ]
+      },
+      "installation": {
+        "title": "Installation Services",
+        "description": "Professional installation and assembly services",
+        "features": [
+          "Equipment installation",
+          "System integration",
+          "Testing and commissioning",
+          "Training and documentation"
+        ]
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "Comprehensive project management services",
+        "features": [
+          "Project planning",
+          "Time management",
+          "Resource management",
+          "Quality control"
+        ]
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "Technical consulting and project support",
+        "features": [
+          "Project consulting",
+          "Technical analysis",
+          "Cost optimization",
+          "Risk management"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Our Projects",
+      "description": "Examples from our successful subcontracting projects",
+      "construction": {
+        "title": "Construction Projects"
+      },
+      "maintenance": {
+        "title": "Maintenance Services"
+      },
+      "installation": {
+        "title": "Installation Projects"
+      },
+      "infrastructure": {
+        "title": "Infrastructure Projects"
+      },
+      "cabling": {
+        "title": "Cable Installation"
+      },
+      "electrical": {
+        "title": "Electrical Work"
+      }
+    },
+    "process": {
+      "title": "Our Work Process",
+      "description": "How we realize your subcontracting projects step by step",
+      "step1": {
+        "title": "Project Planning",
+        "description": "We plan all stages of the project in detail"
+      },
+      "step2": {
+        "title": "Resource Management",
+        "description": "We optimize human resources and material management"
+      },
+      "step3": {
+        "title": "Implementation",
+        "description": "We bring the project to life with our professional team"
+      },
+      "step4": {
+        "title": "Quality Control",
+        "description": "We test the project and check its compliance with quality standards"
+      }
+    },
+    "cta": {
+      "title": "Let's Start Your Subcontracting Project",
+      "description": "Contact us for our subcontracting services",
+      "contactButton": "Contact Us"
+    },
+    "seo": {
+      "title": "Subcontracting Services - Professional Solutions",
+      "description": "Electrical, weak current and IT subcontracting services. Construction, maintenance, installation and project management solutions.",
+      "keywords": "subcontracting services, electrical subcontracting, weak current subcontracting, project management, maintenance services"
+    }
+  },
+  "home": {
+    "title": "Arti 3 Bilişim",
+    "welcome": "Welcome"
+  },
+  "hero": {
+    "title": "20 Years of Experience with Technology Solutions",
+    "description": "Your trusted partner in digital transformation. We provide comprehensive technology services from IT infrastructure to electrical projects, from low current systems to Akinsoft software solutions."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with us and start your digital transformation journey",
+    "phone.title": "Phone",
+    "callNow": "Call Now"
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in Touch",
+      "description": "Don't hesitate to contact us for your questions, suggestions or partnership offers. We will get back to you as soon as possible."
+    },
+    "form": {
+      "title": "Contact Form",
+      "subtitle": "Fill out the form below to get in touch with us",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Your name and surname"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "example@email.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+90 (5XX) XXX XX XX"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Subject of your message"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Write your message here..."
+      },
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success": "Your message has been sent successfully! We will get back to you as soon as possible.",
+      "error": {
+        "title": "Error Occurred",
+        "message": "An error occurred while sending your message. Please try again."
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "We are here to provide you with the best service",
+      "address": {
+        "title": "Address",
+        "value": "Mustafa Kemal Paşa\nMahir Sokak No:87 D:A\nAvcılar, Istanbul"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+90 (212) 423 27 84"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@arti3.net"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "value": "Monday - Friday\n09:00 - 18:00"
+      }
+    }
+  },
+  "demoPage": {
+    "hero": {
+      "title": "Request a Free Demo",
+      "description": "Request a demo to experience Akinsoft products. We will get back to you as soon as possible."
+    },
+    "form": {
+      "title": "Demo Request Form",
+      "subtitle": "Fill out the form to try our products",
+      "program": {
+        "label": "Program",
+        "placeholder": "Select program",
+        "hint": "Select the program you want to request a demo for"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Your company name"
+      },
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Your name and surname"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+90 (5XX) XXX XX XX",
+        "hint": "Enter your phone number so we can reach you"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Provide detailed information about your demo request",
+        "hint": "Provide detailed information about your demo request"
+      },
+      "submit": "Request Demo",
+      "submitting": "Sending...",
+      "error": {
+        "title": "Error Occurred",
+        "message": "An error occurred while submitting the form. Please try again."
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "With 20 years of experience, we are your trusted technology partner in IT and technology. We continuously improve ourselves to provide the highest quality service to our customers.",
+    "tagline": "We shape the future with technology"
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "About Us - ARTI 3 BİLİŞİM | 20 Years of Technology Experience",
+      "description": "ARTI 3 BİLİŞİM, founded in Istanbul in 2004, specializes in computer, software, hardware, project-based electrical and low current systems, providing technology solutions. With 20 years of experience, we provide corporate solutions to our customers."
+    },
+    "hero": {
+      "tagline": "Single Solution for All Your Problems",
+      "companyName": "ARTI 3 BİLİŞİM",
+      "title": "About Us",
+      "description": "Our company, founded in Istanbul in 2004, provides professional solutions in computer, software, hardware, electrical and low current systems with 20 years of experience."
+    },
+    "content": {
+      "paragraph1": "Our company, founded in Istanbul in 2004, initially served individual customers, and in 2015, transitioned to a limited company status, moving its business areas from individual to corporate. This transformation has been an important milestone in our company's growth strategy and has enabled us to provide more comprehensive services to corporate customers.",
+      "paragraph2": "Our company has deep expertise in computer systems, software development, hardware solutions, project-based electrical work, and low current systems. In each area, we follow the industry's leading technologies and best practices to provide our customers with the most current and effective solutions. Our expert team continuously renews itself through ongoing training and development programs and closely follows the latest developments in the industry.",
+      "paragraph3": "Our company strives to keep our customers' efficiency at the highest level by providing solutions that will make them ready for both intra-corporate and extra-corporate integration, and advantageous in the competitive market environment through the services we provide. Thanks to our customer-oriented approach, we analyze each project's specific needs and develop customized solutions. With experienced staff, most of whom have been serving since the company's establishment, our company continues to grow sustainably by increasing employment, improving service quality, and keeping customer satisfaction at the forefront. Our 20 years of experience and strong references in the industry are our most important values that give confidence to our customers."
+    },
+    "tagline": {
+      "text": "Single Solution for All Your Problems"
+    },
+    "timeline": {
+      "title": "Our History",
+      "item1": {
+        "title": "Foundation",
+        "description": "Established in Istanbul and began serving in the IT sector."
+      },
+      "item2": {
+        "title": "Corporate Transformation",
+        "description": "Transitioned business areas from individual to corporate as a limited company."
+      }
+    },
+    "expertise": {
+      "title": "Our Areas of Expertise",
+      "item1": {
+        "title": "Computer Systems",
+        "description": "We provide expert services in computer hardware and software solutions."
+      },
+      "item2": {
+        "title": "Software Development",
+        "description": "We provide enterprise software solutions and custom software development services."
+      },
+      "item3": {
+        "title": "Electrical Projects",
+        "description": "We provide project-based electrical work and electrical infrastructure solutions."
+      },
+      "item4": {
+        "title": "Low Current Systems",
+        "description": "We are experts in low current systems and automation solutions."
+      }
+    }
+  },
+  "products": {
+    "title": "Akinsoft Products"
+  },
+  "demo": {
+    "title": "Request Demo"
+  },
+  "support": {
+    "title": "Create Support Request"
+  },
+  "supportPage": {
+    "hero": {
+      "title": "Create Support Request",
+      "description": "Fill out the support form for technical support, installation or training requests. We will get back to you as soon as possible."
+    },
+    "form": {
+      "title": "Support Request Form",
+      "subtitle": "Fill out the form for technical support, installation or training requests",
+      "program": {
+        "label": "Program",
+        "placeholder": "Select program"
+      },
+      "supportType": {
+        "label": "Support Type",
+        "placeholder": "Select support type"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Your company name"
+      },
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Your name and surname"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+90 (5XX) XXX XX XX",
+        "hint": "Enter your phone number so we can reach you"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Provide detailed information about your support request",
+        "hint": "Provide detailed information about your support request"
+      },
+      "submit": "Send Support Request",
+      "submitting": "Sending...",
+      "error": {
+        "title": "Error Occurred",
+        "message": "An error occurred while submitting the form. Please try again."
+      }
+    }
+  },
+  "footer": {
+    "description": "Your trusted technology partner in IT and technology. We have been serving since 2015.",
+    "rights": "All rights reserved.",
+    "services": "Services",
+    "company": "Company",
+    "help": "Help & Info",
+    "social": "Social Media",
+    "about": "About Us",
+    "career": "Career",
+    "partnership": "Partnership",
+    "downloadable": "Downloadable Content",
+    "contactUs": "Contact Us",
+    "scrollToTop": "Scroll to Top",
+    "changeLanguage": "Change Language",
+    "scrollAndLanguage": "Scroll to Top / Change Language"
+  }
+}
+
