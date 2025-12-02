@@ -185,7 +185,7 @@
     top: 2rem;
     left: 50%;
     transform: translateX(-50%);
-  font-size: clamp(0.75rem, 3vw, 0.95rem);
+  font-size: clamp(0.75rem, 2.5vw, 0.95rem);
     font-weight: 600;
     font-family: inherit;
     color: #0F0F0F;
@@ -194,11 +194,13 @@
     display: block;
     text-align: center;
     z-index: 5;
-  white-space: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   pointer-events: none;
   text-transform: uppercase;
-  max-width: min(90vw, 900px);
-  padding: 0 1.25rem;
+  max-width: min(85vw, 960px);
+  padding: 0 1rem;
   }
   
   @media (min-width: 375px) {
