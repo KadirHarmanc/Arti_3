@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useSpamProtection } from './useSpamProtection'
 
 export type FormSubmitStatus = 'idle' | 'submitting' | 'success' | 'error'
@@ -26,6 +26,15 @@ export function useDemoForm() {
   const [spamError, setSpamError] = useState<string | null>(null)
   
   const spamProtection = useSpamProtection()
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const params = new URLSearchParams(window.location.search)
+    const productSlug = params.get('product')
+    if (productSlug) {
+      setFormData(prev => (prev.program ? prev : { ...prev, program: productSlug }))
+    }
+  }, [])
 
   const handleChange = (field: keyof DemoFormData, value: string) => {
     setFormData(prev => ({

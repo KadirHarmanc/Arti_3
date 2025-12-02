@@ -21,6 +21,7 @@
     .akinsoft-promo {
       padding: 1.25rem 1.5rem 0;
       min-height: 400px;
+    
     }
   }
   
@@ -184,7 +185,7 @@
     top: 2rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 1rem;
+  font-size: clamp(0.75rem, 3vw, 0.95rem);
     font-weight: 600;
     font-family: inherit;
     color: #0F0F0F;
@@ -193,39 +194,40 @@
     display: block;
     text-align: center;
     z-index: 5;
-    white-space: nowrap;
-    pointer-events: none;
-    text-transform: uppercase;
+  white-space: normal;
+  pointer-events: none;
+  text-transform: uppercase;
+  max-width: min(90vw, 900px);
+  padding: 0 1.25rem;
   }
   
   @media (min-width: 375px) {
     .akinsoft-promo-title {
-      font-size: 1.125rem;
       top: 2.5rem;
     }
   }
   
   @media (min-width: 640px) {
     .akinsoft-promo-title {
-      font-size: 1.25rem;
       top: 3rem;
       letter-spacing: 0.1em;
+    max-width: min(75vw, 960px);
     }
   }
   
   @media (min-width: 768px) {
     .akinsoft-promo-title {
-      font-size: 1.375rem;
       top: 3.5rem;
       letter-spacing: 0.12em;
+    max-width: min(60vw, 1000px);
     }
   }
   
   @media (min-width: 1024px) {
     .akinsoft-promo-title {
-      font-size: 1.5rem;
       top: 4rem;
       letter-spacing: 0.15em;
+    max-width: 52vw;
     }
   }
   
@@ -292,20 +294,21 @@
   
 .akinsoft-promo-brand {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
+  flex-wrap: wrap;
   margin-top: 0;
   padding-top: 0.5rem;
   border-top: 1px solid rgba(210, 220, 182, 0.2);
-  text-align: center;
+  text-align: left;
 }
 
 .akinsoft-promo-brand-logo {
-  width: clamp(140px, 55vw, 220px);
+  width: clamp(150px, 48vw, 230px);
   height: auto;
-  max-height: 140px;
+  max-height: 150px;
   object-fit: contain;
   flex-shrink: 0;
   background: transparent;
@@ -318,6 +321,7 @@
   color: #0F0F0F;
   letter-spacing: -0.01em;
   line-height: 1.4;
+  text-align: left;
 }
   
   .akinsoft-promo-cta {
@@ -351,15 +355,13 @@
   
 @media (min-width: 640px) {
   .akinsoft-promo-brand {
-    flex-direction: row;
-    gap: 1rem;
     justify-content: flex-start;
-    text-align: left;
+    gap: 1rem;
   }
   
   .akinsoft-promo-brand-logo {
-    width: clamp(180px, 32vw, 260px);
-    max-height: 160px;
+    width: clamp(190px, 28vw, 260px);
+    max-height: 170px;
   }
   
   .akinsoft-promo-brand-text {
@@ -375,8 +377,7 @@
 
 @media (min-width: 768px) {
   .akinsoft-promo-brand-logo {
-    width: clamp(190px, 22vw, 240px);
-    max-height: 170px;
+    width: clamp(200px, 18vw, 240px);
   }
   
   .akinsoft-promo-brand-text {

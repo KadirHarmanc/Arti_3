@@ -32,6 +32,13 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({
   const sectionRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
+    const isMobile = typeof window !== 'undefined' && window.matchMedia('(max-width: 767px)').matches
+
+    if (isMobile) {
+      setIsVisible(true)
+      return
+    }
+
     if (!sectionRef.current) return
 
     const observer = new IntersectionObserver(
@@ -86,7 +93,6 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({
                     className="home-service-section-gallery-image"
                     loading="lazy"
                     decoding="async"
-                    fetchPriority="low"
                   />
                 </div>
               ))}

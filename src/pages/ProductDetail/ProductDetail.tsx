@@ -94,6 +94,14 @@ const ProductDetail: React.FC = () => {
   }, [product, baseUrl, currentLocale])
 
   const activeSectionData = sections.find(s => s.key === activeSection)
+  const compactHeadingVariants = new Set([
+    'Kullanım Alanları',
+    'Usage Areas',
+    'Öne Çıkan Özellikler',
+    'Key Features',
+    'İçerdiği Modüller',
+    'Included Modules'
+  ])
 
   const demoHref = `/demo?product=${product.slug}`
   const supportHref = `/support?product=${product.slug}`
@@ -131,9 +139,6 @@ const ProductDetail: React.FC = () => {
             </Link>
 
             <div className="product-detail-hero-content">
-              <div className="product-detail-badge">
-                {currentLocale === 'tr' ? 'Akınsoft' : 'Akinsoft'}
-              </div>
               <h1 className="product-detail-hero-title">
                 {product.title}
               </h1>
@@ -181,7 +186,13 @@ const ProductDetail: React.FC = () => {
 
           <div className="product-detail-content">
             {activeSectionData && (
-              <div className="product-detail-section-content">
+              <div
+                className={`product-detail-section-content ${
+                  compactHeadingVariants.has(activeSectionData.heading)
+                    ? 'product-detail-section-content-compact'
+                    : ''
+                }`}
+              >
                 <h3 className="product-detail-section-heading">
                   {activeSectionData.heading}
                 </h3>

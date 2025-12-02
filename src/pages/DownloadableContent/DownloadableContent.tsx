@@ -43,7 +43,6 @@ const DownloadableContent: React.FC = () => {
 
       <div className="downloads-page">
         <header className="downloads-header">
-          <p className="downloads-pill">Doküman Merkezi</p>
           <h1>Kurumsal Belgeler</h1>
           <p>Hizmet süreçlerimizde talep edilen temel dokümanları buradan indirebilirsiniz.</p>
         </header>

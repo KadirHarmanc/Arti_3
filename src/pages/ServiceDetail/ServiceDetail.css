@@ -610,6 +610,7 @@
 @media (min-width: 768px) {
   .service-detail-process-line {
     height: 3px;
+    display: none;
   }
 }
 
@@ -691,25 +692,14 @@
 
 @media (max-width: 767px) {
   .service-detail-process-timeline {
-    padding: 1.5rem 0 1.5rem 1.5rem;
-  }
-
-  .service-detail-process-line {
-    top: 1rem;
-    bottom: 1rem;
-    left: 2.25rem;
-    right: auto;
-    width: 2px;
-    height: auto;
-    transform: none;
-    background: linear-gradient(180deg, #DDE9C9 0%, #4C763B 50%, #DDE9C9 100%);
+    padding: 1.5rem 0;
   }
 
   .service-detail-process-steps {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.5rem;
-    padding: 0 0 0 1.75rem;
+    padding: 0;
     min-height: auto;
   }
 
@@ -726,6 +716,9 @@
     min-height: auto;
     padding: 0;
     gap: 1rem;
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .service-detail-process-step-spacer {
@@ -911,17 +904,14 @@
 
 .service-detail-process-step-card::before {
   content: '';
-  position: absolute;
-  top: 0.85rem;
-  left: 1.25rem;
-  right: 1.25rem;
-  height: 2px;
-  background: linear-gradient(90deg, rgba(76, 118, 59, 0), #4C763B, rgba(76, 118, 59, 0));
-  opacity: 0.4;
-}
-
-.service-detail-process-step-card:hover::before {
-  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #D1D5DB;
+  opacity: 0.9;
+  margin: 0.35rem 0 0.5rem;
+  order: 2;
+  align-self: stretch;
 }
 
 .service-detail-process-step-card:hover {
@@ -941,6 +931,7 @@
   line-height: 1.4;
   text-align: center;
   width: 100%;
+  order: 1;
 }
 
 .service-detail-process-step-card:hover .service-detail-process-step-title {
@@ -978,6 +969,7 @@
   line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  order: 3;
 }
 
 @media (min-width: 768px) {
@@ -1008,6 +1000,30 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes serviceLinePulse {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scaleX(0.97);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes serviceLinePulseVertical {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scaleY(0.97);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scaleY(1);
   }
 }
 
