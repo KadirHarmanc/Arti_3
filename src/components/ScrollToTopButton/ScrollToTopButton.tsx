@@ -4,7 +4,7 @@ import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher'
 import './ScrollToTopButton.css'
 
 const ScrollToTopButton: React.FC = () => {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const [isHovered, setIsHovered] = useState(false)
   const [isScrollButtonVisible, setIsScrollButtonVisible] = useState(false)
 

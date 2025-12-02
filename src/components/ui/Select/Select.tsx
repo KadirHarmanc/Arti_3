@@ -20,6 +20,7 @@ const SelectContext = React.createContext<SelectContextValue | null>(null)
 export const Select: React.FC<SelectProps> = ({ value, onValueChange, children, required }) => {
   const [isOpen, setIsOpen] = useState(false)
   const selectRef = useRef<HTMLDivElement>(null)
+  const isRequired = Boolean(required)
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -39,7 +40,12 @@ export const Select: React.FC<SelectProps> = ({ value, onValueChange, children, 
 
   return (
     <SelectContext.Provider value={{ value, onValueChange, isOpen, setIsOpen }}>
-      <div className="select-wrapper" ref={selectRef}>
+      <div
+        className="select-wrapper"
+        ref={selectRef}
+        aria-required={isRequired || undefined}
+        data-required={isRequired ? 'true' : undefined}
+      >
         {children}
       </div>
     </SelectContext.Provider>

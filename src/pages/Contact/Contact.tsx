@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
     spamError,
     honeypotValue,
     setHoneypotValue,
-  } = useContactForm(currentLocale)
+  } = useContactForm()
 
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : ''
   const seoTitle = currentLocale === 'tr'

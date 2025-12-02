@@ -86,7 +86,7 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({
                     className="home-service-section-gallery-image"
                     loading="lazy"
                     decoding="async"
-                    fetchpriority="low"
+                    fetchPriority="low"
                   />
                 </div>
               ))}

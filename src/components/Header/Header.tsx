@@ -103,7 +103,7 @@ const Header: React.FC = () => {
   const linkRefs = useRef<Record<string, HTMLAnchorElement | HTMLButtonElement | null>>({})
   const navRef = useRef<HTMLDivElement | null>(null)
   const dropdownRef = useRef<HTMLDivElement | null>(null)
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const location = useLocation()
 
   const isActive = (path: string) => {

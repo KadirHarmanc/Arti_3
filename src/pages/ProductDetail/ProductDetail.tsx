@@ -11,7 +11,7 @@ import './ProductDetail.css'
 
 const ProductDetail: React.FC = () => {
   const { productId } = useParams<{ productId: string }>()
-  const { t, i18n } = useTranslation()
+  const { i18n } = useTranslation()
   const currentLocale = i18n.language
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : ''
 
